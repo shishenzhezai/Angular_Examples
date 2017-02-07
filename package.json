@@ -1,0 +1,26 @@
+{
+  "name": "angularexamples1",
+  "version": "1.0.0",
+  "description": "Angular_Examples_1",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shishenzhezai/Angular_Examples.git"
+  },
+  "keywords": [
+    "angular1.x",
+    "webpack2"
+  ],
+  "author": "shishenzhezai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shishenzhezai/Angular_Examples/issues"
+  },
+  "homepage": "https://github.com/shishenzhezai/Angular_Examples#readme",
+  "devDependencies": {
+    "webpack": "^2.2.1"
+  }
+}
