@@ -4,7 +4,9 @@
   "description": "Angular_Examples_1",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build":"webpack --config webpack.config.js",
+    "start":"webpack-dev-server --open"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,10 @@
   },
   "homepage": "https://github.com/shishenzhezai/Angular_Examples#readme",
   "devDependencies": {
-    "webpack": "^2.2.1"
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
   }
 }
