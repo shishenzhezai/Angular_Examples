@@ -12,15 +12,20 @@ module.exports= function ($scope) {
 
     $scope.add = function () {
         $scope.jisuanObj.result = $scope.jisuanObj.parm1 + $scope.jisuanObj.parm2;
+
+        
     }
 
     $scope.jian = function () {
         $scope.jisuanObj.result = $scope.jisuanObj.parm1 - $scope.jisuanObj.parm2;
+
     }
     $scope.chen = function () {
         $scope.jisuanObj.result = $scope.jisuanObj.parm1 * $scope.jisuanObj.parm2;
+
     }
     $scope.chu = function () {
         $scope.jisuanObj.result = $scope.jisuanObj.parm1 / $scope.jisuanObj.parm2;
+
     }
 }
