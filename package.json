@@ -6,7 +6,7 @@
   "scripts": {
     "test": "test",
     "build": "webpack --config webpack.config.js",
-    "start": "webpack-dev-server --open --inline"
+    "start": "webpack-dev-server --open"
   },
   "repository": {
     "type": "git",

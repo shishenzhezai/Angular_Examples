@@ -1,17 +1,17 @@
 var path = require('path');
-var HtmlWebpackPlugin = require('html-webpack-plugin');
 var webpack = require('webpack');
+var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: ['./app/index.js', './app/index'],
- devtool: "inline-source-map",
+  devtool: "inline-source-map",
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist')
   },
   devServer: {
     contentBase: __dirname + "/dist",
-    hot: true,
+    inline:true,
     watchOptions: {
       poll: true
     }
